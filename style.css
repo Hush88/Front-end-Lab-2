@@ -1,0 +1,15 @@
+.image-container {
+    text-align: center;
+}
+
+.transformed-image {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.transformed-image:hover {
+    transform: rotate(15deg) scale(1.2);
+}
